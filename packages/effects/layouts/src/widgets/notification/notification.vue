@@ -73,7 +73,7 @@ defineExpose({ toggle });
     </template>
 
     <div class="relative">
-      <div class="flex items-center justify-between p-4 py-3">
+      <div class="flex items-center justify-between p-2 py-3">
         <div class="text-foreground">{{ $t('ui.widgets.notifications') }}</div>
         <VbenIconButton
           :disabled="notifications.length <= 0"

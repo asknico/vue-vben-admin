@@ -37,7 +37,7 @@
 }
 
 .vben-tiptap-content pre {
-  @apply overflow-x-auto rounded-[0.9rem] border border-border bg-popover p-4 text-popover-foreground;
+  @apply overflow-x-auto rounded-[0.9rem] border border-border bg-popover p-2 text-popover-foreground;
 }
 
 .vben-tiptap-content pre code {

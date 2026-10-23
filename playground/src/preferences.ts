@@ -20,8 +20,25 @@ export const overridesPreferences = defineOverridesPreferences({
   // overrides
   app: {
     name: import.meta.env.VITE_APP_TITLE,
+    // 模式：'wide' 全屏 / 'compact' 限宽居中（要窄就用 compact）
+    contentCompact: 'compact',
+    // compact 模式下内容最大宽度，越小越窄；默认 1200。想更窄改成 1000 / 960
+    contentCompactWidth: 1696,
+    // 内容四周内边距。注意：只保留这一行即可，
+    // 如果同时写 contentPaddingTop/Left/Right/Bottom，会覆盖这里的值
+    contentPadding: 4,
   },
   copyright: appCopyrightPreferences,
+  theme: {
+    // 浅色主题时，侧边栏深色，就是截图的【深色侧边栏】
+    semiDarkSidebar: true,
+    // semiDarkHeader: true, // 深色顶栏，配套的,
+    builtinType: 'deep-blue',
+    colorPrimary: 'hsl(211 91% 39%)',
+    mode: 'light',
+    radius: '0.25',
+    fontSize: 15,
+  },
 });
 
 export type { PlaygroundPreferencesExtension };

@@ -69,7 +69,7 @@ const imageUpload: ImageUploadOptions = {
     </Card>
 
     <Card title="HTML 输出">
-      <pre class="overflow-auto rounded-xl border border-border bg-muted p-4">
+      <pre class="overflow-auto rounded-xl border border-border bg-muted p-2">
         {{ previewContent }}
       </pre>
     </Card>

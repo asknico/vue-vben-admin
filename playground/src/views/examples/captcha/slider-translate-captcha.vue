@@ -14,7 +14,7 @@ function handleSuccess() {
     title="拼图滑块校验"
   >
     <Card class="mb-5" title="基本示例">
-      <div class="flex-center p-4">
+      <div class="flex-center p-2">
         <SliderTranslateCaptcha
           src="https://unpkg.com/@vbenjs/static-source@0.1.7/source/pro-avatar.webp"
           :canvas-width="420"

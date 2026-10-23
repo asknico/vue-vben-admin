@@ -78,7 +78,7 @@ const formattedPlaygroundPreferences = computed(() => {
 });
 
 const preClasses =
-  'mt-4 overflow-auto rounded-lg border border-border bg-muted p-4 text-sm';
+  'mt-4 overflow-auto rounded-lg border border-border bg-muted p-2 text-sm';
 
 function applyPreset(type: 'compact' | 'focus' | 'review') {
   const presetMap: Record<
@@ -156,7 +156,7 @@ function getPriorityColor(priority: DemoTaskItem['priority']) {
         </template>
       </Alert>
 
-      <div class="mt-4 rounded-xl border p-4" :class="toneConfig.cardClass">
+      <div class="mt-4 rounded-xl border p-2" :class="toneConfig.cardClass">
         <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
           <div>
             <div class="text-lg font-semibold">

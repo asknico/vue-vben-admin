@@ -154,12 +154,12 @@ onMounted(async () => {
 
     <div class="grid gap-4 lg:grid-cols-2">
       <Card title="getRawValues() 输出（组件值）">
-        <pre class="bg-muted overflow-auto rounded-md p-4 text-sm">{{
+        <pre class="bg-muted overflow-auto rounded-md p-2 text-sm">{{
           liveValuesPreview
         }}</pre>
       </Card>
       <Card title="getValues / submit 输出（codec.encode 后）">
-        <pre class="bg-muted overflow-auto rounded-md p-4 text-sm">{{
+        <pre class="bg-muted overflow-auto rounded-md p-2 text-sm">{{
           transformedValuesPreview
         }}</pre>
       </Card>

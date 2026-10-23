@@ -64,7 +64,7 @@ const chartTabs: TabOption[] = [
 </script>
 
 <template>
-  <div class="p-5">
+  <div class="p-2">
     <AnalysisOverview :items="overviewItems" />
     <AnalysisChartsTabs :tabs="chartTabs" class="mt-5">
       <template #trends>

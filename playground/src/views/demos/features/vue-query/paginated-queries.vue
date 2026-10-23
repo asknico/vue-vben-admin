@@ -39,7 +39,7 @@ const nextPage = () => {
     <p>当前页: {{ page }}</p>
     <Button size="small" @click="nextPage">下一页</Button>
   </div>
-  <div class="p-4">
+  <div class="p-2">
     <div v-if="isPending">加载中...</div>
     <div v-else-if="isError">出错了: {{ error }}</div>
     <div v-else-if="data">

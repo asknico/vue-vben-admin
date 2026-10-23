@@ -234,7 +234,7 @@ function navTo(nav: WorkbenchProjectItem | WorkbenchQuickNavItem) {
 </script>
 
 <template>
-  <div class="p-5">
+  <div class="p-2">
     <WorkbenchHeader
       :avatar="userStore.userInfo?.avatar || preferences.app.defaultAvatar"
     >

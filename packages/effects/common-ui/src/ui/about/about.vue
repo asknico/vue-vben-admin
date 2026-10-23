@@ -121,7 +121,7 @@ const devDependenciesItems = Object.keys(devDependencies).map((key) => ({
         {{ description }}
       </p>
     </template>
-    <div class="card-box p-5">
+    <div class="card-box p-2">
       <div>
         <h5 class="text-lg text-foreground">基本信息</h5>
       </div>
@@ -141,7 +141,7 @@ const devDependenciesItems = Object.keys(devDependencies).map((key) => ({
       </div>
     </div>
 
-    <div class="card-box mt-6 p-5">
+    <div class="card-box mt-6 p-2">
       <div>
         <h5 class="text-lg text-foreground">生产环境依赖</h5>
       </div>
@@ -160,7 +160,7 @@ const devDependenciesItems = Object.keys(devDependencies).map((key) => ({
         </dl>
       </div>
     </div>
-    <div class="card-box mt-6 p-5">
+    <div class="card-box mt-6 p-2">
       <div>
         <h5 class="text-lg text-foreground">开发环境依赖</h5>
       </div>

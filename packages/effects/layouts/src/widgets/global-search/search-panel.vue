@@ -279,7 +279,7 @@ useEventListener('mousemove', () => {
           "
           :data-index="index"
           :data-search-item="index"
-          class="group mb-3 flex-center w-full cursor-pointer rounded-lg bg-accent p-4"
+          class="group mb-3 flex-center w-full cursor-pointer rounded-lg bg-accent p-2"
           @click="handleEnter"
           @mouseenter="handleMouseenter"
         >

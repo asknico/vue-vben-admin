@@ -49,7 +49,7 @@ $font-size: 30px;
 
 ```vue
 <template>
-  <div class="bg-white p-4">
+  <div class="bg-white p-2">
     <p class="text-green">hello world</p>
   </div>
 </template>

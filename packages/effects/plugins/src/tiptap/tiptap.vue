@@ -301,7 +301,7 @@ onBeforeUnmount(() => {
         </VbenIconButton>
       </div>
     </div>
-    <EditorContent v-if="editor" :editor="editor" class="p-4" />
+    <EditorContent v-if="editor" :editor="editor" class="p-2" />
     <PreviewModal
       v-if="previewable"
       :title="$t('ui.tiptap.toolbar.preview')"

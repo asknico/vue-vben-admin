@@ -160,7 +160,7 @@ const handleClick = (point: CaptchaPoint) => {
         </template>
       </PointSelectionCaptcha>
 
-      <ol class="float-left p-5">
+      <ol class="float-left p-2">
         <li v-for="point in selectedPoints" :key="point.i" class="flex">
           <span class="mr-3 w-16">{{
             $t('examples.captcha.index') + point.i

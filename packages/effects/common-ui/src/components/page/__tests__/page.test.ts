@@ -55,7 +55,7 @@ describe('page.vue', () => {
       },
     });
 
-    const contentDiv = wrapper.find('.p-4');
+    const contentDiv = wrapper.find('.p-2');
     expect(contentDiv.classes()).toContain('custom-class');
   });
 

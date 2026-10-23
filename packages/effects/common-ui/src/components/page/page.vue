@@ -83,7 +83,7 @@ const contentStyle = computed<StyleValue>(() => {
       :class="
         cn(
           autoContentHeight ? 'min-h-0 flex-1 overflow-y-auto' : 'flex-1',
-          'p-4',
+          'p-2',
           contentClass,
         )
       "

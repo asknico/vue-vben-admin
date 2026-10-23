@@ -28,7 +28,7 @@ withDefaults(defineProps<Props>(), {
     <CardHeader>
       <CardTitle class="text-lg">{{ title }}</CardTitle>
     </CardHeader>
-    <CardContent class="flex flex-wrap p-5 pt-0">
+    <CardContent class="flex flex-wrap p-2 pt-0">
       <ul class="w-full divide-y divide-border" role="list">
         <li
           v-for="item in items"
